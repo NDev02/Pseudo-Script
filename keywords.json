@@ -1,0 +1,21 @@
+{
+    "start program by:":"function start()",
+
+    "the steps for block": "function",
+    "which takes": "(",
+    "are": ")",
+    "start:": "{",
+    "then:": ";",
+    "give value of": "return ",
+    "finish": "}",
+    "self": "this",
+
+    "do block": "",
+    "with": "(",
+    "here": ")",
+
+    "start ignoring": "/*",
+    "stop ignoring": "*/",
+    "ignore:": "//",
+    "nothing": "undefined"
+}
