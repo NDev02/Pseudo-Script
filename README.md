@@ -23,7 +23,7 @@ From here I learned about Regular Expressions or RegEx, as most programmers call
 
 ## Next
 Now that I was able to go through the lines of custom Pseudo Code Script and replace predefined sequences with it's JavaScript target equivalent I was able to pass in the translated string of what was now JavaScript into some function that would run the code. The only problem was that I was not aware of the JavaScript eval() function.\
-After Lots of research I finnaly came across [this page](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval)\
+After Lots of research I finnaly came across [this page](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval)
 * After discovering the eval() function I was amazed. JavaScript is one of the only programming language with something like this built-in and honestly it is FANTASTIC. People can say what they want about JavaScript being insecure and all but ya know what... At least it has a built-in eval() function.
 * By using the eval() function all I had to do after translating the code was pass it into the eval function so now what started as "say 'hello'" could be translated to "say('hello');" and then be run and 'hello' would now appear in the console. **SUCCESS!**
 
