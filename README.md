@@ -2,15 +2,20 @@
 A new programming language for the web that is simple to use, read, and write.
 
 # How To Use
-1. Link the compiler.js file to your web page
-2. Inside compiler.js: on line 43 replace "test.psc" with the path to your PSC (Pseudo-Script-Code) file
-3. Make sure log = false on line 12 other wise your code will not run, rather the translated version will appear in the console
+1. **Make sure you are on a live website or at least a localhost server so that you can load files!!**
+2. Link the compiler.js file to your web page
+3. Inside compiler.js: on line 43 replace "test.psc" with the path to your PSC (Pseudo-Script-Code) file
+4. Make sure log = false on line 12 other wise your code will not run, rather the translated version will appear in the console
 
 # How to Use VSCode Syntax Highlighting
 1. Close out of VSCode
 2. Download pseudo-script-vscode.zip
 3. Extract the zip into C:\Users\USERNAME\.vscode\extensions
 4. Restart VSCode, now when you have open any files with an extension of ".psc", ".pseudo", ".pseudoscript", ".ps", ".pseudocode", ".pcode", or ".pscode" Visual Studio Code will automatically recognize the file and use the syntax highlighting rules I have put into the pseudo-code-script.zip extension files.
+
+# To Start a Localhost server
+* [Click Here](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server)
+* Or if you have python installed on your machine you can use the Start Server.bat file I have provided **as long as you are on windows**
 
 # About
 I built Pseudo Script fairly simply through the use of JavaScript and JavaScript's useful built in RegEx and eval() functions. When I started this project my end goal was to create a easier to Read and Write version of JSON that would be more interactive and have more functionality. However as I started that project I realized that what I was doing could be used to create a new programming language. So I started going through the steps listed below:
